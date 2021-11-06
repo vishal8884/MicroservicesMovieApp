@@ -16,6 +16,13 @@ public class Rating {
 	public void setRating(int rating) {
 		this.rating = rating;
 	}
+	
+	
+	public Rating()
+	{
+		
+	}
+	
 	public Rating(String id, int rating) {
 		super();
 		this.id = id;
